@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "burtons";
+  src: url("../public/Burtons.otf");
+}
+.cursive-font {
+  font-family: "sacramento", cursive;
+}
+.body-font {
+  font-family: "Quicksand", sans-serif;
+}
+
+.body-font-2 {
+  font-family: "Quicksand", cursive;
+}
+
+.borderLight {
+  border-color: #0d9488;
+}
+
+.hover\:transition-timing-function-cubic-bezier {
+  transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
