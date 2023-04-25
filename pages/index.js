@@ -28,16 +28,7 @@ export default function Home() {
         <Intro toggleMoon={toggleMoon} toggleSun={toggleSun} darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
         <Projects />
 
-        <section className="py-10">
-          <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
-            <div className="basis-1/3 flex-1 ">sdf</div>
-            <div className="basis-1/3 flex-1"></div>
-            <div className="basis-1/3 flex-1"></div>
-            <div className="basis-1/3 flex-1"></div>
-            <div className="basis-1/3 flex-1"></div>
-            <div className="basis-1/3 flex-1"></div>
-          </div>
-        </section>
+        
       </main>
     </div>
   );
