@@ -18,13 +18,20 @@ const Projects = () => {
       </div>
       <div className="lg:flex gap-10">
         <div className="borderLight text-center p-5 rounded-xl my-10 border-4 border-cyan-400 dark:border-0d9488 dark:bg-gray-800 flex-1 hover:transform duration-500 hover:scale-105">
-          <Image
-            priority
-            src={makebuy}
-            alt="project image"
-            className="rounded"
-            style={"width: 1em; height: 1em"}
-          />
+          <a
+            href={"https://omrironen4.github.io/Make-it-Buy-it/makeit.html"}
+            target={"_blank"}
+            rel="noreferrer"
+          >
+            <Image
+              priority
+              src={makebuy}
+              alt="project image"
+              className="rounded"
+              style={"width: 1em; height: 1em"}
+            />
+          </a>
+
           <u className="text-teal-600">
             <h1
               style={{ fontSize: "2em" }}
@@ -52,13 +59,20 @@ const Projects = () => {
         </div>
         {/* Taskify */}
         <div className="borderLight text-center p-5 rounded-xl my-10 border-4 border-cyan-400 dark:border-#0d9488 dark:bg-grey-800 flex-1 hover:transform duration-500 hover:scale-105">
-          <Image
-            priority
-            src={Taskify}
-            alt="project image"
-            className="rounded"
-            style={{ width: "1em", height: "1em" }}
-          />
+          <a
+            href={"https://taskify-a76sb3a5t-omrironen4.vercel.app/"}
+            target={"_blank"}
+            rel="noreferrer"
+          >
+            <Image
+              priority
+              src={Taskify}
+              alt="project image"
+              className="rounded"
+              style={{ width: "1em", height: "1em" }}
+            />
+          </a>
+
           <u className="text-teal-600">
             <h1
               style={{ fontSize: "2em" }}
@@ -82,40 +96,6 @@ const Projects = () => {
           <p style={{ fontSize: "1em" }} className=" text-teal-600">
             {" "}
             React, TypeScript, DragnDrop npm package, Css.
-          </p>
-        </div>
-
-        <div className="borderLight text-center p-5 rounded-xl my-10 border-4 border-cyan-400 dark:border-#0d9488 dark:bg-grey-800 flex-1 hover:transform duration-500 hover:scale-105">
-          <Image
-            priority
-            src={makebuy}
-            alt="project image"
-            className="rounded"
-            style={"width: 1em; height: 1em"}
-          />
-          <u className="text-teal-600">
-            <h1
-              style={{ fontSize: "2em" }}
-              className=" body-font text-teal-600  "
-            >
-              Make/Buy
-            </h1>
-          </u>
-          <h3 style={{ fontSize: "1.4em" }} className="body-font text-teal-600">
-            Description:
-          </h3>
-          <p style={{ fontSize: "1em" }} className="body-font text-teal-600">
-            Search for recipes to cook, or find restaurants near by.
-          </p>
-          <h3
-            style={{ fontSize: "1.4em" }}
-            className=" body-font pt-2 text-teal-600"
-          >
-            Tech Tools:
-          </h3>
-          <p style={{ fontSize: "1em" }} className=" text-teal-600">
-            {" "}
-            JavaScript, HTML, CSS, Spoonacular, Yelp APIS
           </p>
         </div>
       </div>
