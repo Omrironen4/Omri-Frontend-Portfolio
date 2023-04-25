@@ -2,6 +2,7 @@ import React from "react";
 import Head from "next/head";
 import Image from "next/image";
 import makebuy from "../public/makebuy.png";
+import Taskify from "../public/Taskify.png"
 
 
 const Projects = () => {
@@ -11,8 +12,9 @@ const Projects = () => {
         <h3 className="  text-3xl py-1 dark:text-white ">Projects:</h3>
 
         <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-          Scroll through my projects and click to viewwwww.
+          Scroll through my projects and click to view.
         </p>
+        {/* Make it Buy it App */}
       </div>
       <div className="lg:flex gap-10">
         <div className="borderLight text-center p-5 rounded-xl my-10 border-4 border-cyan-400 dark:border-0d9488 dark:bg-gray-800 flex-1 hover:transform duration-500 hover:scale-105">
@@ -45,14 +47,14 @@ const Projects = () => {
           </h3>
           <p style={{ fontSize: "1em" }} className=" text-teal-600">
             {" "}
-            JavaScript, HTML, CSS, Spoonacular, Yelp APIS
+            JavaScript, HTML, CSS, Spoonacular, Yelp APIS.
           </p>
         </div>
-
+        {/* Taskify */}
         <div className="borderLight text-center p-5 rounded-xl my-10 border-4 border-cyan-400 dark:border-#0d9488 dark:bg-grey-800 flex-1 hover:transform duration-500 hover:scale-105">
           <Image
             priority
-            src={makebuy}
+            src={Taskify}
             alt="project image"
             className="rounded"
             style={{ width: "1em", height: "1em" }}
@@ -62,14 +64,14 @@ const Projects = () => {
               style={{ fontSize: "2em" }}
               className=" body-font text-teal-600  "
             >
-              Make/Buy
+              Taskify
             </h1>
           </u>
           <h3 style={{ fontSize: "1.4em" }} className="body-font text-teal-600">
             Description:
           </h3>
           <p style={{ fontSize: "1em" }} className="body-font text-teal-600">
-            Search for recipes to cook, or find restaurants near by.
+            Create a task, mark it as complete, edit it, and move it around!
           </p>
           <h3
             style={{ fontSize: "1.4em" }}
@@ -79,7 +81,7 @@ const Projects = () => {
           </h3>
           <p style={{ fontSize: "1em" }} className=" text-teal-600">
             {" "}
-            JavaScript, HTML, CSS, Spoonacular, Yelp APIS
+            React, TypeScript, DragnDrop npm package, Css.
           </p>
         </div>
 
