@@ -47,7 +47,7 @@ const Intro = function ({toggleMoon, toggleSun, darkMode, toggleDarkMode}) {
             </li>
             <li>
               <a
-                href="https://omri-frontend-portfolio.vercel.app/resume.pdf"
+                href="https://omri-frontend-portfolio.vercel.app/omri-ronen-cv.pdf"
                 download
                 className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
                 rel="noopener noreferrer"
